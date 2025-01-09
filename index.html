@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Waf STD22076</title>
+    <script src="index.js" defer></script>
+    <script src="config.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="https://09bd26e5e726.eu-west-3.captcha-sdk.awswaf.com/09bd26e5e726/jsapi.js" defer></script>
+</head>
+<body>
+    <form id="numberForm">
+        <input type="number" id="numberInput" min="1" max="1000" required>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="output"></div>
+    <div id="captchaContainer" style="display: none;">
+        <div id="my-captcha-container"></div>
+    </div>
+</body>
+</html>
