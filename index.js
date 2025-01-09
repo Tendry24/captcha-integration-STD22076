@@ -33,7 +33,7 @@ function showMyCaptcha() {
     var container = document.querySelector("#my-captcha-container");
     
     AwsWafCaptcha.renderCaptcha(container, {
-        apiKey: window.AWS_WAF_API_KEY,
+        apiKey: window.WAF_API_KEY,
         onSuccess: captchaExampleSuccessFunction,
         onError: captchaExampleErrorFunction,
     });
